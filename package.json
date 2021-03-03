@@ -1,0 +1,25 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "live-server --port=5500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielSharp01/cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielSharp01/cv/issues"
+  },
+  "homepage": "https://danielsharp01.github.io/cv",
+  "dependencies": {
+    "html-pdf-node": "^1.0.7",
+    "live-server": "^1.2.1"
+  }
+}

@@ -13,7 +13,7 @@ var params = {
 };
 liveServer.start(params);
 
-let options = { format: 'A4', preferCSSPageSize: true, printBackground: true };
+let options = { format: 'A4', preferCSSPageSize: true, printBackground: true, pageRanges: '1-1' };
 let file = { url: 'http://127.0.0.1:5501' };
 html_to_pdf.generatePdf(file, options).then(pdfBuffer => {
     fs.writeFileSync('cv.pdf', pdfBuffer);
